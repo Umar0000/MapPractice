@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Style id="AREA_FF00FF00">
+      <LineStyle>
+        <color>FF00FF00</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>8000FF00</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Placemark>
+      <name>aaa</name>
+      <description>aa</description>
+      <styleUrl>#AREA_FF00FF00</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>67.0348311960697,24.9097420326813,0.0 67.0348969101906,24.9094075374106,0.0 67.0355272293091,24.9095966793933,0.0 67.0354866608977,24.9098828245105,0.0 67.0348311960697,24.9097420326813,0.0 </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
