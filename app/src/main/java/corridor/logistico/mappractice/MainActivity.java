@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             public void onCameraIdle() {
                 //get latlng at the center by calling
                 LatLng midLatLng = mMap.getCameraPosition().target;
-                textView_camera.setText(getResources().getResourceName(R.string.lat) + midLatLng.latitude + "\n" +getResources().getResourceName(R.string.lng)+ midLatLng.longitude);
+                textView_camera.setText(getResources().getString(R.string.lat)+ midLatLng.latitude + "\n" +getResources().getString(R.string.lng)+ midLatLng.longitude);
             }
         });
 
@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             @Override
             public void onMapClick(LatLng latLng) {
                 //get R.string.lat text  from string file
-                textView_click.setText(getResources().getResourceName(R.string.lat) + latLng.latitude + "\n" +getResources().getResourceName(R.string.lng)+ latLng.longitude);
+                textView_click.setText(getResources().getString(R.string.lat) + latLng.latitude + "\n" +getResources().getString(R.string.lng)+ latLng.longitude);
             }
         });
     }
